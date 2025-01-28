@@ -1,0 +1,39 @@
+.cabeza {
+    position: fixed;
+    background-color:  rgb(170, 13, 13);
+    width: 100%;
+    height: 110px;
+    border: 3px solid black;
+    grid-row: 1/1;
+    grid-column: 1/5;
+}
+.cabh1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+}
+.logo {
+    justify-content: center;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cabecita {
+    background-color:  rgb(177, 8, 8);
+    width: 100vh;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.centro {
+    padding: 20px 20px;
+    margin-right: 20px 20px;
+    background-color: black;
+    border: 2px solid white;
+    height: 100vh;
+    width: 50%;
+}
