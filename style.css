@@ -37,22 +37,28 @@ body {
 }
 
 .b2 {
-    background-color: rgb(190, 7, 7);;
+    background-color: rgb(190, 7, 7);
     grid-row: 2/2;
     grid-column: 1/4;
     border: 2px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 .objeto_flex {
     color: white;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 25px;
     font-family: Verdana, sans-serif;
+    ;
 }
-.objeto_flex:active {
-    color: black;
+.objeto_flex:hover {
+    color: white;
+    background-color: lightcoral;
+    border: 2px solid whitr ;
+    border-radius: 15px;
+    scale: 1.2;
 }
 
 .b3 {
@@ -65,7 +71,7 @@ body {
     background-color: lightgray;
     grid-row: 3/3;
     grid-column: 2/2;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .b5 {
@@ -74,10 +80,19 @@ body {
     grid-column: 3/3;
 }
 
-.b6 {
-    background-color: blue;
+.footer {
+    background-color: rgb(190, 7, 7);
+    grid-row: 2/2;
     color: white;
     grid-row: 4/4;
     grid-column: 1/4;
-    border: 2px solid white;
+    border: 2px solid black;
+}
+.objeto_footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    margin-top: 50px;
 }
