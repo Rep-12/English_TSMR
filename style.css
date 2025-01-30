@@ -54,7 +54,6 @@ body {
     margin-left: 20px;
     font-size: 25px;
     font-family: Verdana, sans-serif;
-    ;
 }
 .objeto_flex:hover {
     color: white;
@@ -80,7 +79,8 @@ body {
 }
 
 .b5 {
-    background-color: red;
+    background-image: url('UNIVERSITARIA-7-copia.jpg');
+    background-size: cover;
     grid-row: 3/3;
     grid-column: 3/3;
 }
