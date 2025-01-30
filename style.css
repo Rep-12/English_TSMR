@@ -69,7 +69,10 @@ body {
     background-image: url('imagen_izquierda.jpg');
     background-size: cover;
 }
-
+.espacio_imagen1:hover {
+    scale: 1.001;
+    border: 2px solid white;
+}
 
 .b4 {
     background-color: lightgray;
@@ -78,13 +81,16 @@ body {
     border: 2px solid black;
 }
 
-.b5 {
+.imagen_2 {
     background-image: url('UNIVERSITARIA-7-copia.jpg');
     background-size: cover;
     grid-row: 3/3;
     grid-column: 3/3;
 }
-
+.imagen_2:hover {
+    scale: 1.001;
+    border: 2px solid white;
+}
 .footer {
     background-color: rgb(190, 7, 7);
     color: white;
