@@ -52,6 +52,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .objeto_flex {
     color: white;
