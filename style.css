@@ -84,6 +84,7 @@ body {
 .imagen_2 {
     background-image: url('UNIVERSITARIA-7-copia.jpg');
     background-size: cover;
+    background-position: right;
     grid-row: 3/3;
     grid-column: 3/3;
 }
@@ -105,4 +106,29 @@ body {
     font-size: 18px;
     font-family: Verdana, sans-serif;
     margin-top: 50px;
+}
+.pregunta {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-left: 5px solid rgb(129, 38, 38);
+    padding: 10px;
+}
+.respuesta {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid rgb(129, 38, 38);
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+iframe {
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
