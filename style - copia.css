@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,7 +20,6 @@ body {
     grid-template-columns: 20% auto 20%;
     grid-template-rows: 12% 6% auto 10%;
 }
-
 .cabeza {
     background-color: rgb(170, 13, 13);
     grid-row: 1/1;
@@ -32,7 +32,6 @@ body {
     border: 2px solid black;
     padding-top: 10px;
 }
-
 .imagen_cab {
     margin-top: 0px;
     height: 100%;
@@ -40,7 +39,6 @@ body {
     align-items: center;
     margin-right: 10px;
 }
-
 .imagen_cab:hover {
     scale: 1.01;
 }
@@ -57,18 +55,16 @@ body {
     position: sticky;
     top: 0;
 }
-
 .objeto_flex {
     color: white;
     margin-left: 20px;
     font-size: 25px;
     font-family: Verdana, sans-serif;
 }
-
 .objeto_flex:hover {
     color: white;
     background-color: lightcoral;
-    border: 2px solid whitr;
+    border: 2px solid whitr ;
     border-radius: 15px;
     scale: 1.2;
 }
@@ -80,7 +76,6 @@ body {
     background-size: cover;
     background-position: left;
 }
-
 .espacio_imagen1:hover {
     scale: 1.001;
     border: 2px solid white;
@@ -100,12 +95,10 @@ body {
     grid-row: 3/3;
     grid-column: 3/3;
 }
-
 .imagen_2:hover {
     scale: 1.001;
     border: 2px solid white;
 }
-
 .footer {
     background-color: rgb(190, 7, 7);
     color: white;
@@ -113,7 +106,6 @@ body {
     grid-column: 1/4;
     border: 2px solid black;
 }
-
 .objeto_footer {
     justify-content: center;
     align-items: center;
@@ -122,7 +114,6 @@ body {
     font-family: Verdana, sans-serif;
     margin-top: 50px;
 }
-
 .pregunta {
     font-size: 20px;
     font-family: Verdana, sans-serif;
@@ -131,7 +122,6 @@ body {
     border-left: 5px solid rgb(129, 38, 38);
     padding: 10px;
 }
-
 .respuesta {
     font-size: 20px;
     font-family: Verdana, sans-serif;
@@ -144,52 +134,8 @@ body {
     height: auto;
     padding: 10px;
 }
-
 iframe {
     justify-content: center;
     align-items: center;
     margin: 50px;
 }
-<<<<<<< HEAD
-
-.espacio_imagen3 {
-    grid-row: 3/3;
-    grid-column: 1/1;
-    background-image: url('Education_offer.jpg');
-    background-size: cover;
-}
-
-.imagen3 {
-    background-image: url('Education_offer.jpg');
-    background-size: cover;
-    grid-row: 3/5;
-    grid-column: 1/1;
-    background-position: top;
-    border: 2px solid;
-}
-
-.answer {
-    font-size: 20px;
-    font-family: Verdana, sans-serif;
-    margin-top: 50px;
-    margin-left: 50px;
-    border: 2px solid rgb(129, 38, 38);
-    background-color: lightgoldenrodyellow;
-    border-radius: 10px;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    padding-bottom: 1px;
-    padding-top: 1px;
-}
-
-.question {
-    font-size: 20px;
-    font-family: Verdana, sans-serif;
-    margin-top: 30px;
-    margin-left: 50px;
-    border-left: 5px solid rgb(129, 38, 38);
-    padding: 10px;
-}
-=======
->>>>>>> 4a00fadadc5be676af9e70c78f1ff05b89f40bb9
