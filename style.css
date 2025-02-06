@@ -152,22 +152,6 @@ iframe {
     margin: 50px;
 }
 
-.espacio_imagen3 {
-    grid-row: 3/3;
-    grid-column: 1/1;
-    background-image: url('imagen_izquierda.jpg');
-    background-size: cover;
-}
-
-.imagen3 {
-    background-image: url('imagen_izquierda.jpg');
-    background-size: cover;
-    grid-row: 3/5;
-    grid-column: 1/1;
-    background-position: top;
-    border: 2px solid;
-}
-
 .answer {
     font-size: 20px;
     font-family: Verdana, sans-serif;
