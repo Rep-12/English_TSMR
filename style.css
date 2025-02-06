@@ -54,6 +54,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .objeto_flex {
     color: white;
@@ -75,11 +76,18 @@ body {
     background-image: url('FlORIDA\ VACIO.jpg');
     background-size: cover;
     background-position: left;
+    position: relative;
 }
-.espacio_imagen1:hover {
-    scale: 1.001;
-    border: 2px solid white;
+.espacio_imagen1::before {
+    content: ''; /* Esto es necesario para que funcione */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 .caja_centro {
     background-color: lightgray;
@@ -96,7 +104,6 @@ body {
     grid-column: 3/3;
 }
 .imagen_2:hover {
-    scale: 1.001;
     border: 2px solid white;
 }
 .footer {
