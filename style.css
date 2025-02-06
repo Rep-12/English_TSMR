@@ -264,6 +264,14 @@ iframe {
     scale: 1.2;
 }
 
+.objeto_flex-1st:hover {
+    color: white;
+    background-color: lightcoral;
+    border: 2px solid whitr;
+    border-radius: 15px;
+    scale: 1.2;
+}
+
 .b3-1st {
 
 
@@ -412,6 +420,14 @@ h1 {
     font-size: 25px;
     font-family: Verdana, sans-serif;
 }
+
+.objeto_flex-sbj:hover {
+    color: white;
+    background-color: lightcoral;
+    border: 2px solid whitr;
+    border-radius: 15px;
+    scale: 1.2;
+}
     .b3-sbj {
         background-image: url(escaleras.jpeg);
         background-size: cover;
@@ -447,7 +463,7 @@ h1 {
     }
 
     .b5-sbj {
-        background-color: red;
+      
         grid-row: 3/5;
         grid-column: 3/4;
         background-image: url(escaleras.jpeg);
@@ -478,7 +494,7 @@ h1 {
 
 
 .b9-sbj {
-    background-color: #e3dfff;
+    background-color: lightgray;
     grid-row: 4/5;
     grid-column: 2/3;
     color: white;
