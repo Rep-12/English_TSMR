@@ -412,38 +412,60 @@ h1 {
     font-size: 25px;
     font-family: Verdana, sans-serif;
     ;
+    .b3-sbj {
+        background-image: url(escaleras.jpeg);
+        background-size: cover;
+        grid-row: 3/5;
+        grid-column: 1/2;
+        background-position: top;
+        border: 2px solid;
+        position:relative;
 }
 
-.objeto_flex-sbj:hover {
-    color: white;
-    background-color: lightcoral;
-    border: 2px solid white;
-    border-radius: 15px;
-    scale: 1.2;
+.b3-sbj::before /*pseudo-clase*/ {
+    content: ''; /* Esto es necesario para que funcione la clase y el degradado*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.b3-sbj {
-    background-image: url(escaleras.jpeg);
-    background-size: cover;
-    grid-row: 3/5;
-    grid-column: 1/1;
-    background-position: top;
-    border: 2px solid;
 
+
+    .cuadrob4-sbj {
+        background-color: lightgray;
+        grid-row: 3/4;
+        grid-column: 2/2;
+        color: white;
+        font-family: arial;
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+    .b5-sbj {
+        background-color: red;
+        grid-row: 3/5;
+        grid-column: 3/4;
+        background-image: url(escaleras.jpeg);
+        background-size: cover;
+        background-position: right;
+        border: 2px solid;
+        position: relative;
+    }
+    
+.b5-sbj::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
-.cuadrob4-sbj {
-    background-color: #e3dfff;
-    grid-row: 3/4;
-    grid-column: 2/2;
-    color: white;
-    font-family: arial;
-    font-size: 40px;
-    text-align: center;
-    align-content: center;
-
-}
-
 .b5-sbj {
     background-color: red;
     grid-row: 3/5;
