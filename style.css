@@ -117,8 +117,17 @@ body {
     background-position: right;
     grid-row: 3/3;
     grid-column: 3/3;
+    position: relative; /* Esto es necesario para que el degradado este en el lugar correcto*/
 }
-
+.imagen_2::before /*pseudo-clase*/ {
+    content: ''; /* Esto es necesario para que funcione la clase y el degradado*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .imagen_2:hover {
     border: 2px solid white;
 }
