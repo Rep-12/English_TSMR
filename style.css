@@ -264,6 +264,14 @@ iframe {
     scale: 1.2;
 }
 
+.objeto_flex-1st:hover {
+    color: white;
+    background-color: lightcoral;
+    border: 2px solid whitr;
+    border-radius: 15px;
+    scale: 1.2;
+}
+
 .b3-1st {
 
 
@@ -411,6 +419,14 @@ h1 {
     margin-left: 20px;
     font-size: 25px;
     font-family: Verdana, sans-serif;
+}
+
+.objeto_flex-sbj:hover {
+    color: white;
+    background-color: lightcoral;
+    border: 2px solid whitr;
+    border-radius: 15px;
+    scale: 1.2;
 }
     .b3-sbj {
         background-image: url(escaleras.jpeg);
