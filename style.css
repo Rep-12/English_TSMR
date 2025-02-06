@@ -23,7 +23,7 @@ body {
 
 .cabeza {
     background-color: rgb(170, 13, 13);
-    grid-row: 1/1;
+    grid-row: 1/2;
     grid-column: 1/4;
     font-size: 40px;
     text-decoration: bold;
@@ -48,7 +48,7 @@ body {
 
 .menu {
     background-color: rgb(190, 7, 7);
-    grid-row: 2/2;
+    grid-row: 2/3;
     grid-column: 1/4;
     border: 2px solid black;
     display: flex;
@@ -76,8 +76,8 @@ body {
 }
 
 .espacio_imagen1 {
-    grid-row: 3/3;
-    grid-column: 1/1;
+    grid-row: 3/4;
+    grid-column: 1/2;
     background-image: url('FlORIDA_VACIO.jpg');
     background-size: cover;
     background-position: left;
@@ -100,8 +100,8 @@ body {
 
 .caja_centro {
     background-color: lightgray;
-    grid-row: 3/3;
-    grid-column: 2/2;
+    grid-row: 3/4;
+    grid-column: 2/3;
     border: 2px solid black;
 }
 
@@ -109,8 +109,8 @@ body {
     background-image: url('UNIVERSITARIA-7-copia.jpg');
     background-size: cover;
     background-position: right;
-    grid-row: 3/3;
-    grid-column: 3/3;
+    grid-row: 3/4;
+    grid-column: 3/4;
     position: relative; /* Esto es necesario para que el degradado este en el lugar correcto*/
 }
 .imagen_2::before /*pseudo-clase*/ {
@@ -129,7 +129,7 @@ body {
 .footer {
     background-color: rgb(190, 7, 7);
     color: white;
-    grid-row: 4/4;
+    grid-row: 4/5;
     grid-column: 1/4;
     border: 2px solid black;
 }
@@ -163,6 +163,10 @@ body {
     width: 80%;
     height: auto;
     padding: 10px;
+}
+.pregunta::first-letter /*edita la primera letra de la clase*/ {
+    font-size: 30px;
+    color: rgb(129, 38, 38);
 }
 
 iframe {
