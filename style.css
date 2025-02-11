@@ -117,10 +117,16 @@ body {
     background-position: right;
     grid-row: 3/3;
     grid-column: 3/3;
-    position: relative; /* Esto es necesario para que el degradado este en el lugar correcto*/
+    position: relative;
+    /* Esto es necesario para que el degradado este en el lugar correcto*/
 }
-.imagen_2::before /*pseudo-clase*/ {
-    content: ''; /* Esto es necesario para que funcione la clase y el degradado*/
+
+.imagen_2::before
+
+/*pseudo-clase*/
+    {
+    content: '';
+    /* Esto es necesario para que funcione la clase y el degradado*/
     position: absolute;
     top: 0;
     left: 0;
@@ -128,6 +134,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .imagen_2:hover {
     border: 2px solid white;
 }
@@ -472,7 +479,7 @@ h1 {
     border: 2px solid black;
 }
 
-.objeto_footer-sbj {
+.objeto_footer- sbj {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -484,4 +491,55 @@ h1 {
 .textoeducation {
     margin-bottom: 50px;
     padding-top: 50px;
+    background-color: rgb(221, 221, 221);
+}
+
+.espacio_imagen_offer {
+    grid-row: 3/3;
+    grid-column: 1/1;
+    background-image: url('Clase.jpg');
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    background-position: 400px;
+    border: 2px solid;
+}
+
+.imagen_offer2 {
+    background-image: url('Clase2.jpg');
+    background-size: cover;
+    background-position: right;
+    grid-row: 3/3;
+    grid-column: 3/3;
+    position: relative;
+    background-position: 10cm;
+    border: 2px solid
+}
+
+.espacio_imagen_offer::before
+
+/*pseudo-clase*/
+    {
+    content: '';
+    /* Esto es necesario para que funcione la clase y el degradado*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagen_offer2::before
+
+/*pseudo-clase*/
+    {
+    content: '';
+    /* Esto es necesario para que funcione la clase y el degradado*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
