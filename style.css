@@ -483,15 +483,7 @@ h1 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.b5-sbj {
-    background-color: red;
-    grid-row: 3/5;
-    grid-column: 3/4;
-    background-image: url(4k.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 2px solid;
-}
+
 
 
 .b9-sbj {
