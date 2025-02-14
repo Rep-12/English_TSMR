@@ -544,7 +544,7 @@ h1 {
     background-size: cover;
     background-position: left;
     position: relative;
-    background-position: 400px;
+    background-position: center;
     border: 2px solid;
 }
 
@@ -586,6 +586,7 @@ h1 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .imagencontacto{background-image: url('Contacto1.jpg');
     background-size: cover;
     background-position: right;
@@ -594,15 +595,20 @@ h1 {
     position: relative;
     background-position: 500px;
     border: 2px solid}
-.imagencontacto2{background-image: url('imagencontact2.jpg');
-    background-size: cover;
-    background-position: right;
-    grid-row: 3/3;
-    grid-column: 3/3;
-    position: relative;
-    background-position: 500px;
-    border: 2px solid}
-    .imagen_offer2::before
+
+    .imagencontacto2 {
+        grid-row: 3/3;
+        grid-column: 1/1;
+        background-image: url('imagencontact2.jpg');
+        background-size: cover;
+        background-position: left;
+        position: relative;
+        background-position: 600px;
+        border: 2px solid;
+    }
+    
+
+    .imagencontacto::before
 /*pseudo-clase*/
     {
     content: '';
@@ -616,7 +622,7 @@ h1 {
     .imagen_offer2::before}
 
 /*pseudo-clase*/
-    {
+.imagencontacto2::before{
     content: '';
     /* Esto es necesario para que funcione la clase y el degradado*/
     position: absolute;
