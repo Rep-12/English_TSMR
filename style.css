@@ -156,6 +156,13 @@ body {
     font-family: Verdana, sans-serif;
     margin-top: 3vh;
 }
+.objeto_flex_2 {
+    float: right;
+    margin-right: 21%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
 
 .pregunta {
     font-size: 20px;
